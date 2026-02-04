@@ -12,6 +12,8 @@ Features
    JSON-based storage for customer data
    Dockerized for easy deployment
 
+---
+
 Structure
 
     customer_churn/
@@ -31,14 +33,7 @@ Structure
 
 
 
-      git clone https://github.com/deathsamsul/End-to-End-Customer-Churn-Prediction-App.git
-      python -m venv venv
-      \venv\Scripts\activate   # Windows
-      pip install -r requirements.txt
-      uvicorn app.main:app --reload
-      streamlit run streamlit/test.py
-
-
+      
 ---
 
 Installation
