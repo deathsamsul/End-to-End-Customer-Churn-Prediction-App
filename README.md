@@ -5,7 +5,6 @@ built with [FastAPI] (backend CRUD API), [Streamlit] (frontend UI), and real_tim
 data is stored in JSON format, and the system supports deployment with docker.
 
 
-
 Features
    FastAPI backend with CRUD endpoints
    Streamlit dashboard for interactive predictions
@@ -32,11 +31,22 @@ Structure
 
 
 
- Installation
-   git clone https://github.com/deathsamsul/End-to-End-Customer-Churn-Prediction-App.git
-   python -m venv venv
-   \venv\Scripts\activate   # Windows
-   pip install -r requirements.txt
-   uvicorn app.main:app --reload
-   streamlit run streamlit/test.py
+      git clone https://github.com/deathsamsul/End-to-End-Customer-Churn-Prediction-App.git
+      python -m venv venv
+      \venv\Scripts\activate   # Windows
+      pip install -r requirements.txt
+      uvicorn app.main:app --reload
+      streamlit run streamlit/test.py
+
+
+---
+
+Installation
+```bash
+git clone https://github.com/deathsamsul/End-to-End-Customer-Churn-Prediction-App.git
+python -m venv venv
+\venv\Scripts\activate   # Windows
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+streamlit run streamlit/test.py
 
